@@ -90,13 +90,13 @@ Hoisting*/
 // var x=10;
 // console.log(x)
 
-// console.log(y)  //Cannot access 'y' before initialization
-// let y=10;
-// console.log(y)
+console.log(y)  //Cannot access 'y' before initialization
+let y=10;
+console.log(y)
 
-console.log(z)  //Cannot access 'y' before initialization
-const z=10;
-console.log(z)
+// console.log(z)  //Cannot access 'y' before initialization
+// const z=10;
+// console.log(z)
 
 
 
